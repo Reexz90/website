@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     hiddenElements.forEach(function(element) {
         setTimeout(function() {
             element.classList.add('fade-in');
-        }, 100); // Delay sedikit untuk memastikan transisi berjalan
+        }, 100); 
     });
+
 });
